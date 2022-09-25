@@ -1,0 +1,119 @@
+body {
+    width: 1200;
+    max-width: 100%;
+    min-height: 650;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 192, 203);
+
+}
+
+@keyframes {
+
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    width: 800px;
+    height: 650px;   
+}
+
+.header__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap;
+}
+
+
+.header__text--h1 {
+    font-family: 'Roboto Mono', monospace;
+    color: rgb(11, 1, 18);
+    font-size: 70px;  
+      
+}
+
+.header__text--h4 {
+    font-family: 'Roboto Mono', monospace;
+    color: rgb(11, 1, 18);
+    font-size: 22px;
+}
+
+.blackhole__img {
+    width: 300;
+    height: 200;
+}
+
+
+a {
+    
+}
+
+.navlink--styles {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: sticky;
+
+    padding: 20px;
+
+    font-family: 'Roboto Mono', monospace;
+    font-size: 16px;
+    font-weight: 500;
+    color: blanchedalmond;
+    font-style: normal; 
+    text-decoration: none;
+} 
+   
+
+.navlink--styles:hover {
+    color: rgb(6, 1, 22);
+    font-weight: 650;
+    transition: 0.9s color;
+    transition-duration: 7s;
+    transition-delay: 2s;
+
+}
+
+
+.header__nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+
+.header--button {
+    background: url(images/imagehole.svg);
+    border: none;
+    font-family: 'Roboto Mono', monospace;
+}
+.header--button:hover {
+    color: rgb(3, 1, 13);
+    font-size: 16px;
+    transition: all 0.9s ease-in-out;
+    transition-delay: 5s;
+}
+
+
+
+
+
+.submitform__text--H3 {
+    font-family: 'Noto Sans JP', sans-serif;
+    color: rgb(11, 1, 18);
+    font-size: 22px;
+}
+.animate__pulse {
+
+}
